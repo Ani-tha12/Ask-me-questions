@@ -1,0 +1,28 @@
+function validationform()
+{
+    const Firstname = document.getElementById("Firstname").values;
+    const lastname = document.getElementById("Firstname").values;
+    const Address = document.getElementById("Address").values;
+    const E-mail Address = document.getElementById("E-mail Address").values;
+    const password = document.getElementById("password").values;
+    const subject course = ocument.getElementById("subject course").values;
+     
+    const AddressError = documnet.getElementById("Address-error");
+    const E-mail AddressError = documnet.getElementById("E-mail Address-error");
+    const passwordError = documnet.getElementById("password-error");
+    const subject courseError = documnet.getElementById("subjectcourse-error");
+
+    FirstnameError.textContent ="";
+    lastnameError.textContent ="";
+    AddressError.textContent ="";
+    E-mail AddressError.textContent ="";
+    PasswordError.textContent ="";
+    Subject courseError.textContent ="";
+
+    let isValid = true;
+    if(name==" " || /\d/.test(name))
+    {
+        nameError.textContent="please enter your nameproperly.";
+    }
+
+}
